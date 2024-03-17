@@ -1,0 +1,14 @@
+.input[type='checkbox'] {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: white;
+    border: 3px solid var(--text-color-orange);
+    border-radius: 3px;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.input[type='checkbox']:checked {
+    background: var(--gray3-color);
+}

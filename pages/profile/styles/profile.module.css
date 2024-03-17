@@ -1,0 +1,287 @@
+.tabs {
+    display: flex;
+    flex-direction: row;
+    gap: 0.75rem;
+    align-items: center;
+    cursor: pointer;
+    padding-left: 2.0625rem;
+    padding-right: 2.0625rem;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.tabs:hover {
+    background: #F5F5F7;
+    height: auto;
+    width: 320px;
+    border-radius: 0px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+.tabs h6 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%;
+    color: var(--gray2-color);
+}
+
+.menuBox {
+    padding-top: 20px;
+    padding-bottom: 0.625rem;
+    width: 20rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.personalDetailsBox {
+    width: 531px;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px
+}
+
+.orderBox1 {
+    width: 708px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.orderBox2 {
+    /* width: 708px; */
+    background: #FFFFFF;
+    border: 1px solid #e0e0e0;
+    /* box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2); */
+    border-radius: 10px;
+}
+
+.orderBox {
+    width: 708px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.insideDetails {
+    border-bottom: 1px solid #CDDCD9;
+    width: auto;
+}
+
+.containerForPaymentInfo {
+    border-bottom: 1px solid #CDDCD9;
+    padding: 16px 32px;
+}
+
+.paymentInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/2 */
+    color: var(--gray2-color);
+    margin-left: 1.1875rem;
+}
+
+.containerForDeliveryInfo {
+    border-bottom: 1px solid #CDDCD9;
+    padding: 16px 32px;
+}
+
+.deliveryInfo {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/2 */
+    color: var(--gray2-color);
+    margin-left: 1.1875rem;
+}
+
+.addressBox {
+    width: 676px;
+    height: 180px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+    padding: 24px 32px;
+}
+
+.addressContainer {
+    /* width: 708px; */
+    width: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.addNewAddressBox {
+    padding: 33px 35px 32px 32px;
+    width: auto;
+    height: auto;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.topUpBox {
+    padding: 15px 24px 10px 24px;
+    width: 701px;
+    height: auto;
+    border: 0.5px solid var(--gray4-color);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.remarks {
+    padding: 1.5rem;
+    width: 545px;
+    height: 185px;
+    border: 1px solid #E0E0E0;
+    border-radius: 5px;
+}
+
+.reviewBox {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    /* Gray/2 */
+    color: var(--gray2-color);
+}
+
+.active {
+    color: red;
+    font-weight: 900;
+}
+
+@media (max-width: 768px) {
+    .menuBox {
+        padding-top: 6px;
+        padding-bottom: 0.625rem;
+        width: 20rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        background: var(--container-color);
+        box-shadow: none;
+        border-radius: none !important;
+    }
+    .tabs {
+        padding-left: 0rem;
+    }
+    .personalDetailsBox {
+        width: auto;
+        height: auto;
+        background: var(--container-color);
+        box-shadow: none;
+        border-radius: none;
+    }
+    .orderBox1 {
+        width: auto;
+        max-width: 327px;
+        padding: 1rem;
+        background: #FFFFFF;
+        box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+        border-radius: 10px;
+    }
+    .orderBox2 {
+        width: auto;
+        background: #FFFFFF;
+        border: 1px solid #e0e0e0;
+        border-radius: 10px;
+    }
+    .orderBox {
+        width: auto;
+        background: inherit;
+        box-shadow: none;
+        border-radius: 0px;
+    }
+    .navBar {
+        padding: 23px 28px;
+        min-width: 375px;
+        height: auto;
+        background: var(--container-color);
+        box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2);
+        margin-left: -24px;
+    }
+    .insideDetails {
+        border-bottom: 1px solid #CDDCD9;
+        width: auto;
+        margin-right: 24px;
+    }
+    .addressBox {
+        width: auto;
+        height: auto;
+        border: 1px solid #E0E0E0;
+        border-radius: 5px;
+        padding: 12px 12px;
+        box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    }
+    .addressContainer {
+        /* width: 708px; */
+        padding: 1rem;
+        width: auto;
+        background: inherit;
+        box-shadow: none;
+        border-radius: 10px;
+    }
+    .addNewAddressBox {
+        padding: 0;
+        margin: 0;
+        padding-right: 24px;
+        width: auto;
+        height: auto;
+        background: inherit;
+        box-shadow: none;
+        border-radius: none;
+    }
+    .navBarAddAddress {
+        padding: 20px 0;
+        width: auto;
+        height: auto;
+        background: var(--container-color);
+        box-shadow: 0px 1px 0px rgba(4, 54, 45, 0.2);
+    }
+    .topUpBox {
+        padding: 10px 13px 10px 16px;
+        width: auto;
+        height: auto;
+        border: none;
+        border-radius: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    }
+    .remarks {
+        padding: 1.5rem;
+        width: auto;
+        min-width: 327px;
+        height: 185px;
+        border: 1px solid #E0E0E0;
+        border-radius: 5px;
+    }
+    .reviewBox {
+        font-family: 'Segoe UI';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* identical to box height, or 150% */
+        /* Gray/2 */
+        color: var(--gray2-color);
+    }
+}

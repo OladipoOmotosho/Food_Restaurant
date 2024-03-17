@@ -1,0 +1,15 @@
+.outerCheckBox {
+  height: 20;
+  width: 20;
+  border-radius: 12;
+  border-width: 2;
+  border-color: #01100d;
+  align-items: 'center';
+  justify-content: 'center';
+}
+.innerCheckBox {
+  height: 10;
+  width: 10;
+  border-radius: 12;
+  background-color: #01100d;
+}

@@ -1,0 +1,18 @@
+.detailsFormat h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: var(--gray1-color);
+}
+
+.container {
+    width: 650px;
+    height: 617px;
+    /* white */
+    background: #FFFFFF;
+    /* new */
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 15px;
+}

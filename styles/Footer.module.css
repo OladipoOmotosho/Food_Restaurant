@@ -1,0 +1,9 @@
+.linkTopic {
+    font-family: 'SegoeUIBold', sans-serif;
+    margin-bottom: 34;
+}
+
+.link {
+    font-family: 'SegoeUI_Normal', sans-serif;
+    /* color: var(--text-color-orange); */
+}

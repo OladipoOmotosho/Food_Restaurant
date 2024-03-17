@@ -1,0 +1,264 @@
+.faqs {
+    width: auto;
+    padding: 16px;
+    gap: 8px;
+    width: 649px;
+    height: 56px;
+    /* background: #FFFFFF; */
+    box-shadow: 0px 1px 0px #E7EBEE, 0px -1px 0px #E7EBEE;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.faqs h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: -0.02rem;
+}
+
+.couponBox {
+    padding-top: 0.9581rem;
+    padding-bottom: 1.0625rem;
+    width: 15.1875rem;
+    /* height: 6.8125rem; */
+    background: #FFFFFF;
+    border: 1px solid #BDBDBD;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    gap: 0.9581rem;
+    cursor: pointer;
+}
+
+.couponBox #text {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.0087rem;
+    color: var(--greenDeep-color);
+}
+
+.giftIcon {
+    width: 2.5rem;
+    height: 2.5rem;
+    fill: var(--text-color-orange);
+}
+
+.couponBox:hover #text {
+    color: var(--container-color);
+    /* fill: var(--container-color); */
+}
+
+.couponBox:hover .giftIcon {
+    fill: var(--container-color);
+}
+
+.couponBox:hover {
+    background: var(--text-color-orange);
+}
+
+.couponBox:after {
+    background: var(--greenDeep-color);
+    transition: all 0.01s ease;
+}
+
+.couponBox:active:after {
+    background: var(--greenDeep-color);
+}
+
+.infoBox {
+    padding: 1.5rem 4.125rem 1.5944rem 1.5rem;
+    width: 554px;
+    height: 531px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.deliveryDetails {
+    padding: 2rem 2.5rem 2rem 1.5rem;
+    width: 533px;
+    height: 351px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.deliveryDetails h3 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 131%;
+    margin-bottom: 2.25rem;
+}
+
+.cardDetails {
+    width: 520px;
+    padding: 2rem 1.5625rem 2rem 1.5rem;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.h4Text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.04em;
+    color: #828282;
+}
+
+.h5Text {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.giftCardPayment {
+    padding: 26px 29px 26px 24px;
+    width: auto;
+    max-width: 520px;
+    height: 373px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+    border-radius: 10px;
+}
+
+.voucherPrompt1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4375rem;
+}
+
+.voucherPrompt2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.4375rem;
+}
+
+.voucherPrompt h6 {
+    font-family: 'Segoe UI';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.75rem;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #4F4F4F;
+}
+
+.topSection {
+    border-bottom: 2px solid #BDBDBD;
+}
+
+.inputBox {
+    width: 18.625rem;
+    height: 3.125rem;
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--gray4-color);
+    border: 1px solid #BDBDBD;
+}
+
+.inputBox::placeholder {
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: var(--gray4-color);
+}
+
+@media (max-width:640px) {
+    .faqs {
+        width: auto;
+    }
+    .faqs h3 {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        letter-spacing: -0.32px;
+    }
+    .couponBox {
+        padding-top: 0.4281rem;
+        padding-bottom: 0.6556rem;
+        width: 9.75rem;
+        /* height: 3.875rem; */
+        gap: 0.3644rem;
+    }
+    .couponBox .couponBox #text {
+        font-size: 11.4167px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.005rem;
+        color: var(--greenDeep-color);
+    }
+    .giftIcon {
+        width: 1.4269rem;
+        height: 1.4269rem;
+        fill: var(--text-color-orange);
+    }
+    .infoBox {
+        padding: 0px;
+        width: auto;
+        height: auto;
+        background: var(--container-color);
+        box-shadow: none;
+        border-radius: 0px;
+        margin-bottom: 5rem;
+    }
+    .deliveryDetails {
+        padding: 1rem;
+        height: auto;
+        background: var(--container-color);
+        box-shadow: 0px 1px 1px rgba(4, 54, 45, 0.2), inset 0px 1px 1px rgba(4, 54, 45, 0.2);
+        border-radius: 10px;
+    }
+    .cardDetails {
+        /* width: 520px; */
+        padding: 2rem 1rem 1rem 1.5rem;
+    }
+    .h4Text {
+        width: 120px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        letter-spacing: 0.04em;
+        color: #828282;
+    }
+    .h5Text {
+        width: auto;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 140%;
+        display: flex;
+        align-items: center;
+        letter-spacing: 0.04em;
+        color: #4F4F4F;
+    }
+    .giftCardPayment {
+        padding: 16px 4px 26px 4px;
+        box-shadow: none;
+        border-radius: 0px;
+        background: var(--container-color);
+    }
+}

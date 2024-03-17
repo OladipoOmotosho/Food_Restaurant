@@ -1,0 +1,103 @@
+.btn {
+    padding: 12px 32px;
+    border-radius: 20px;
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.bgImg {
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    width: 100%;
+    /* width: 1240px; */
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.viewMenu {
+    /* z-index: 100; */
+    width: 722px;
+    height: 299px;
+    background-color: rgba(1, 16, 13, 0.5);
+    /* opacity: 0.5; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#inputBox {
+    width: 13.75rem;
+    padding: 1.125rem 1rem 1.0625rem 1rem;
+    border-radius: 0.25rem;
+    border: 1px solid #828282;
+    border-radius: 0.25rem;
+    background: #f5f5f7;
+}
+
+#inputBox::placeholder {
+    background: #f5f5f7;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 18px;
+    color: #9f9e9e;
+}
+
+.prevButton {
+    margin-top: -3.125rem;
+    cursor: pointer;
+}
+
+.prevButton:hover {
+    fill: var(--text-color-orange);
+}
+
+.nextButton {
+    margin-top: -3.125rem;
+    cursor: pointer;
+}
+
+.nextButton:hover {
+    fill: var(--text-color-orange);
+}
+
+@media (max-width: 640px) {
+    .catchPhrase {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .bgImg {
+        background-repeat: no-repeat;
+        /* background-position: center; */
+        background-size: cover;
+        width: 19.3125rem;
+        /* width: 1240px; */
+        height: 13.75rem;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+        z-index: 1;
+    }
+    .viewMenu {
+        width: 15.625rem;
+        height: 8.6875rem;
+        background-color: rgba(1, 16, 13, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .btn {
+        /* margin-top: -1.5rem; */
+    }
+}

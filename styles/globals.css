@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+input {
+    -webkit-appearance: none;
+    outline: none;
+}
+
+
+/* @font-face {
+  font-family: 'SegoeUI';
+  src: url('../assets/fonts/segoeUI/SegoeUI-Bold-Italic.ttf');
+  font-weight: bold;
+  font-style: italic;
+} */
+
+
+/* VARIABLE CSS */
+
+:root {
+    --header-height: 3.275rem;
+    /* Colors */
+    /* Color variants */
+    --gray1-color: #333333;
+    --white-color: #ffffff;
+    --gray2-color: #4f4f4f;
+    --gray3-color: #828282;
+    --gray4-color: #BDBDBD;
+    --gray5-color: #E0E0E0;
+    --gray6-color: #F2F2F2;
+    --greenDeep-color: #01100D;
+    --green-color: #27AE60;
+    --kountygreen-color: #065143;
+    --text-color-orange: #EA5B31;
+    --container-color: #F5F5F7;
+    /* Font and Typography */
+    /* .5rem = 8px | 1rem = 16px */
+    --body-font: "Roboto", sans-serif;
+    --title-font: "Lora", serif;
+    --big-font-size: 2.5rem;
+    --h1-font-size: 24px;
+    --h2-font-size: 20px;
+    --h3-font-size: 16px;
+    --normal-font-size: 15.008px;
+    --small-font-size: 13.008px;
+    --smaller-font-size: 12px;
+    --tiny-font-size: 10px;
+    /* FONT WEIGHT */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+    /* z Index */
+    --z-normal: 1;
+    --z-tooltip: 10;
+    --z-fixed: 100;
+}
+
+@font-face {
+    font-family: 'SegoeUIBold';
+    src: url('../assets/fonts/segoeUI/SegoeUI-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUISemiBold';
+    src: url('../assets/fonts/segoeUI/SegoeUI.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI_Normal';
+    src: url('../assets/fonts/segoeUI/SegoeUI.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SegoeUI';
+    src: url('../assets/fonts/segoeUI/SegoeUI.ttf');
+    font-weight: 300;
+    font-style: normal;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* For IE, Edge and Firefox */
+
+.scrollbar-hide {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+}
+
+.css-1yk1gt9-MuiInputBase-root-MuiOutlinedInput-root-MuiSelect-root {
+    width: auto;
+    max-width: 464px;
+    min-width: 355px;
+    font-size: 14px;
+    margin-top: 1px;
+    height: 57px;
+}
+
+@media (max-width: 767px) {
+     :root {
+        --big-font-size: 2rem;
+        --h1-font-size: 1.25rem;
+        --h2-font-size: 20px;
+        --h3-font-size: 16px;
+        --normal-font-size: 15.008px;
+        --small-font-size: 13.008px;
+        --smaller-font-size: 12px;
+        --tiny-font-size: 10px;
+    }
+}
