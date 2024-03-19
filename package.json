@@ -38,7 +38,8 @@
     "react-toastify": "^9.1.1",
     "slick-carousel": "^1.8.1",
     "types": "^0.1.1",
-    "utility": "^1.17.0"
+    "utility": "^1.17.0",
+    "xxxx": "^3.0.4"
   },
   "devDependencies": {
     "@svgr/webpack": "^6.5.1",
