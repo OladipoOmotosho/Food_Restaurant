@@ -1,3 +1,4 @@
+import React from 'react';
 import Image from 'next/image';
 import cateringBg from '../../assets/images/cateringBg.png';
 import cateringMobileBg from '../../assets/images/cateringMobileBg.png';
@@ -12,9 +13,7 @@ import profileImgs from '../../assets/images/profileImgs.png';
 import { MailBox, Next, PhoneLine, Previous } from '../../assets';
 import useScreenSize from '../../hooks/useScreenSize';
 import CarouselOriginalComponent from '../../components/carouselComponent/CarouselOrignalComponent';
-import { useEffect, useState } from 'react';
 import { useAppSelector } from '../../state/hooks';
-import { ClassNames } from '@emotion/react';
 const Catering = ({ Img }: Testimonials) => {
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);
   useScreenSize();
