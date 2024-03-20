@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import { KountyGiftCard } from '../../../../assets';
 import { FONTFAMILY, colors } from '../../../../utils';
 import { CustomButton, CustomTextInput } from '../../../../components';
-import { useAppSelector } from '../../../../state/hooks';
+import { useAppSelector } from '../../../../state/hooks/Index';
 
 const CheckoutBinance = () => {
   const [email, setEmail] = useState('');

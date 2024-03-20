@@ -6,7 +6,7 @@ import Delete from '../assets/svg/Delete.svg';
 import { CartIcon, CloseIcon } from '../../../assets';
 import CustomButton from '../../CustomButton';
 import { useRouter } from 'next/router';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import {
   decrementItemQuantity,
   incrementItemQuantity,

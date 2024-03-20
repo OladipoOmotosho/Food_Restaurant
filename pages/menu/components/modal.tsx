@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { toast } from 'react-toastify';
 import { CloseIcon } from '../../../assets';
 import { CustomButton, CustomText } from '../../../components';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { addToCart } from '../../../state/slices/cart';
 import { colors, formatMoney } from '../../../utils';
 import Recommended from './recommended';

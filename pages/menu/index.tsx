@@ -6,10 +6,10 @@ import Search from './assets/svg/Search.svg';
 import Modal from './components/modal';
 import { createRef, useState } from 'react';
 import { menu } from '../../utils';
-import { useAppSelector } from '../../state/hooks';
+import { useAppSelector } from '../../state/hooks/Index';
 import SmallMenuPicture from './assets/images/smallMenuImage.png';
 import Image from 'next/image';
-import useScreenSize from '../../hooks/useScreenSize';
+import UseScreenSize from '../../hooks/UseScreenSize';
 
 const Menu = () => {
   const [showModal, setShowModal] = useState(false);
@@ -28,7 +28,7 @@ const Menu = () => {
     return acc;
   }, {});
 
-  useScreenSize();
+  UseScreenSize();
 
   return (
     <>

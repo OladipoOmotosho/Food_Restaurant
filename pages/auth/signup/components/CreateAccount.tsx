@@ -6,7 +6,7 @@ import {
   setWindowHeight,
   setWindowSize,
 } from '../../../../state/slices/screensize';
-import { useAppDispatch } from '../../../../state/hooks';
+import { useAppDispatch } from '../../../../state/hooks/Index';
 
 const CreateAccount = () => {
   const dispatch = useAppDispatch();

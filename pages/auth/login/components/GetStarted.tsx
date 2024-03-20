@@ -2,10 +2,10 @@ import { useEffect, useState } from 'react';
 import Link from 'next/link';
 
 import { useRouter } from 'next/router';
-import { useAppDispatch, useAppSelector } from '../../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../state/hooks/Index';
 import { colors, FONTFAMILY } from '../../../../utils';
 import { CustomButton, CustomTextInput } from '../../../../components';
-import useScreenSize from '../../../../hooks/useScreenSize';
+import UseScreenSize from '../../../../hooks/UseScreenSize';
 
 const GetStarted = () => {
   const router = useRouter();

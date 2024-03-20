@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { colors } from '../../utils';
 import Circle from '../../assets/svg/circle.svg';
-import { useAppSelector } from '../../state/hooks';
+import { useAppSelector } from '../../state/hooks/Index';
 import Active from './assets/svg/activePay.svg';
 import Inactive from './assets/svg/inactivePay.svg';
 

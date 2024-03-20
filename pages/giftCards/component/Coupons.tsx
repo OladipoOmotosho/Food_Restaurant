@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { GiftIcon } from '../../../assets';
 import { FONTFAMILY } from '../../../utils';
 import styles from '../styles/giftcard.module.css';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 
 const Coupons = ({ text }: any) => {
   const [chooseCard, setChooseCard] = useState(false);

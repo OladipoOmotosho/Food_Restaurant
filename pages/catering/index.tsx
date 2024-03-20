@@ -11,12 +11,12 @@ import dishlocal from '../../assets/images/dishlocal.png';
 import menuBgImg from '../../assets/images/menuBgImg.png';
 import profileImgs from '../../assets/images/profileImgs.png';
 import { MailBox, Next, PhoneLine, Previous } from '../../assets';
-import useScreenSize from '../../hooks/useScreenSize';
+import UseScreenSize from '../../hooks/UseScreenSize';
 import CarouselOriginalComponent from '../../components/carouselComponent/CarouselOrignalComponent';
-import { useAppSelector } from '../../state/hooks';
+import { useAppSelector } from '../../state/hooks/Index';
 const Catering = ({ Img }: Testimonials) => {
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);
-  useScreenSize();
+  UseScreenSize();
 
   const gallery = [
     {

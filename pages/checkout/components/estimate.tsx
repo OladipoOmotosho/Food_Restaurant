@@ -6,7 +6,7 @@ import {
   CustomText,
   CustomTextInput,
 } from '../../../components';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import Active from '../assets/svg/active.svg';
 import Inactive from '../assets/svg/Inactive.svg';
 

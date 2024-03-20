@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
 import ChooseCard from './components/ChooseCard';
-import useScreenSize from '../../../hooks/useScreenSize';
+import UseScreenSize from '../../../hooks/UseScreenSize';
 import RecipientInfo from './components/RecipientInfo';
 import ReviewCard from './components/ReviewCard';
 import CheckoutAndPay from './components/CheckoutAndPay';
 import CheckoutBinance from '../redeemGift/component/CheckoutBinance';
 // import { setOrderComplete } from '../../../state/slices/checkout';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { setOrderComplete } from '../../../state/slices/checkout';
 import { colors } from '../../../utils';
 
 const Index = () => {
-  useScreenSize();
+  UseScreenSize();
   const [chooseCardVisible, setChooseCardVisible] = useState(true);
   const [recipientInfoVisible, setRecipientInfoVisible] = useState(false);
   const [reviewCardVisible, setReviewCardVisible] = useState(false);

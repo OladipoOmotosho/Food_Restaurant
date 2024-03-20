@@ -1,4 +1,4 @@
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { colors } from '../../../utils';
 import CustomText from '../../CustomText';
 import BinanceIcon from '../assets/svg/binance.svg';

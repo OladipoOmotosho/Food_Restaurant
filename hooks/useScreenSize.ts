@@ -1,8 +1,8 @@
 import { useEffect } from 'react';
-import { useAppDispatch } from '../state/hooks';
+import { useAppDispatch } from '../state/hooks/Index';
 import { setWindowHeight, setWindowSize } from '../state/slices/screensize';
 
-export default function useScreenSize() {
+export default function UseScreenSize() {
   const dispatch = useAppDispatch();
 
   useEffect(() => {

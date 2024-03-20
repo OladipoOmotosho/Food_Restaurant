@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { CloseIcon } from '../../../assets';
 import { colors } from '../../../utils';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { setOrderComplete } from '../../../state/slices/checkout';
 import CustomText from '../../CustomText';
 import CustomButton from '../../CustomButton';

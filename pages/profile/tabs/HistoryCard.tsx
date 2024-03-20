@@ -8,7 +8,7 @@ import gift from '../../../assets/images/gift.png';
 import { useEffect, useState } from 'react';
 import HistoryDetails from './tabComponent/HistoryDetails';
 import { History } from '../../../assets';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 
 const HistoryCard = () => {
   const [seeDetails, setSeeDetails] = useState(false);

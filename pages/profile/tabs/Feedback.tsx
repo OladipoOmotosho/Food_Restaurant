@@ -6,7 +6,7 @@ import { CustomButton, CustomText } from '../../../components';
 import Image from 'next/image';
 import styles from '../styles/profile.module.css';
 import RateReview from './tabComponent/RateReview';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { Rating } from '../../../assets';
 
 const Feedback = () => {

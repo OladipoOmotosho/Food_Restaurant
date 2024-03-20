@@ -1,5 +1,5 @@
 import { CustomText } from '../../../components';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { formatMoney } from '../../../utils';
 
 const Summary = () => {

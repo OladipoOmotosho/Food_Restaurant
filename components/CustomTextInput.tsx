@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import { Calendar, EyeHide, EyeShow } from '../assets';
-import { useAppSelector } from '../state/hooks';
+import { useAppSelector } from '../state/hooks/Index';
 import { colors } from '../utils';
 
 const CustomTextInput = ({

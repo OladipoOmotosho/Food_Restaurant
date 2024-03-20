@@ -9,7 +9,7 @@ import {
   Previous,
 } from '../../../assets';
 import { CustomButton, CustomTextInput } from '../../../components';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import Checkbox from '../../../components/checkBox/CheckBox';
 
 const Addresses = ({

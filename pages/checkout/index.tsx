@@ -2,7 +2,7 @@ import { CustomButton, CustomModal, CustomText } from '../../components';
 import DeliveryInfo from '../../components/DeliveryInfo';
 import Estimate from './components/estimate';
 import Summary from './components/summary';
-import { useAppDispatch, useAppSelector } from '../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../state/hooks/Index';
 import Payment from '../../components/payment';
 import { useEffect, useState } from 'react';
 import { Router, useRouter } from 'next/router';
@@ -10,7 +10,7 @@ import { setOrderComplete, unsetDelivery } from '../../state/slices/checkout';
 import { setWindowHeight, setWindowSize } from '../../state/slices/screensize';
 import Circle from '../../assets/svg/circle.svg';
 import InactiveCircle from '../../assets/svg/inActiveCircle.svg';
-import useScreenSize from '../../hooks/useScreenSize';
+import UseScreenSize from '../../hooks/UseScreenSize';
 
 const Checkout = () => {
   const { orderComplete, deliverySet } = useAppSelector(
@@ -20,7 +20,7 @@ const Checkout = () => {
   const router = useRouter();
   const dispatch = useAppDispatch();
 
-  useScreenSize();
+  UseScreenSize();
 
   return (
     <>

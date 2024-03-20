@@ -6,7 +6,7 @@ import { TextField, TextFieldProps } from '@mui/material';
 import { useState } from 'react';
 import styles from '../styles/profile.module.css';
 import { Dayjs } from 'dayjs';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { Profile, ProfileIcon } from '../../../assets';
 
 const PersonalInformation = () => {

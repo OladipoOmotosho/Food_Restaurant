@@ -6,7 +6,7 @@ import styles from '../styles/index.module.css';
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { DropDown, MailBox, PhoneLine, Previous } from '../../../assets';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import {
   setWindowHeight,
   setWindowSize,

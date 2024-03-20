@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { FONTFAMILY, colors } from '../../../../../utils';
 import styles from './styles/components.module.css';
-import { useAppSelector } from '../../../../../state/hooks';
+import { useAppSelector } from '../../../../../state/hooks/Index';
 const History = () => {
   const recentActivities = [
     {

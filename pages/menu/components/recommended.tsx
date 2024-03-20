@@ -1,5 +1,5 @@
 import { CustomText } from '../../../components';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { formatMoney } from '../../../utils';
 import AddIcon from '../assets/svg/AddIconWhite.svg';
 import styles from '../../../styles/Menu.module.css';

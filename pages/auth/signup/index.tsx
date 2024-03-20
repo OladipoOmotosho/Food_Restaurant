@@ -5,8 +5,8 @@ import { useEffect, useState } from 'react';
 import { BackLine } from '../../../assets';
 import loginImage from '../../../assets/images/loginImage.png';
 import { CustomButton, CustomTextInput } from '../../../components';
-import useScreenSize from '../../../hooks/useScreenSize';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import UseScreenSize from '../../../hooks/UseScreenSize';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { colors, FONTFAMILY } from '../../../utils';
 import { Dayjs } from 'dayjs';
 import TextField from '@mui/material/TextField';
@@ -17,7 +17,7 @@ const Register = () => {
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);
 
   const dispatch = useAppDispatch();
-  useScreenSize();
+  UseScreenSize();
 
   const [name, setName] = useState('');
   const [lastName, setLastName] = useState('');

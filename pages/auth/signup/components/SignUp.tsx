@@ -2,17 +2,18 @@ import { CustomButton, CustomTextInput } from '../../../../components';
 import { colors, FONTFAMILY } from '../../../../utils';
 import Link from 'next/link';
 import { useEffect, useState } from 'react';
-import { useAppDispatch } from '../../../../state/hooks';
-import { setWindowHeight, setWindowSize } from '../../../../state/slices/screensize';
+import { useAppDispatch } from '../../../../state/hooks/Index';
+import {
+  setWindowHeight,
+  setWindowSize,
+} from '../../../../state/slices/screensize';
 
 const SignUp = () => {
-
   const dispatch = useAppDispatch();
   useEffect(() => {
     dispatch(setWindowSize(window?.outerWidth));
     dispatch(setWindowHeight(window?.outerHeight));
   }, []);
-
 
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');

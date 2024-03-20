@@ -7,8 +7,8 @@ import GetStarted from './components/GetStarted';
 import WelcomeBack from './components/WelcomeBack';
 import { useEffect, useState } from 'react';
 import { CustomButton, CustomTextInput } from '../../../components';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
-import useScreenSize from '../../../hooks/useScreenSize';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
+import UseScreenSize from '../../../hooks/UseScreenSize';
 
 const Login = () => {
   const router = useRouter();
@@ -17,7 +17,7 @@ const Login = () => {
   const [page, setPage] = useState(true);
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);
 
-  useScreenSize();
+  UseScreenSize();
 
   function handleClick() {
     setPage(false);

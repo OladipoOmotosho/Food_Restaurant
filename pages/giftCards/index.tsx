@@ -3,7 +3,7 @@ import React from 'react';
 import { CustomButton } from '../../components';
 import cardsGiftPage from '../../assets/images/cardsGiftPage.png';
 import { colors, FONTFAMILY } from '../../utils';
-import useScreenSize from '../../hooks/useScreenSize';
+import UseScreenSize from '../../hooks/UseScreenSize';
 import jollofRice2 from '../../assets/images/jollofRice2.png';
 import mealPlan2 from '../../assets/images/mealPlan2.png';
 import { AddWallet, DropDownIcon, Login, TapCard } from '../../assets';
@@ -12,7 +12,7 @@ import DropDownFaqs from './component/DropDownFaqs';
 import Link from 'next/link';
 
 const Index = () => {
-  useScreenSize();
+  UseScreenSize();
 
   const reedemGiftCard = [
     {

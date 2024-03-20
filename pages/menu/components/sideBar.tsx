@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import CustomText from '../../../components/CustomText';
-import { useAppSelector } from '../../../state/hooks';
+import { useAppSelector } from '../../../state/hooks/Index';
 import { colors, menu } from '../../../utils';
 
 const SideBar = ({ refs }: any) => {

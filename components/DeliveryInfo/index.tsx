@@ -2,7 +2,7 @@ import { colors } from '../../utils';
 import Circle from '../../assets/svg/circle.svg';
 import Details from './details';
 import Fields from './fields';
-import { useAppSelector } from '../../state/hooks';
+import { useAppSelector } from '../../state/hooks/Index';
 import CustomText from '../CustomText';
 import { CheckBoxCircle } from '../../assets';
 

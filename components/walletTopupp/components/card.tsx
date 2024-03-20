@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { setOrderComplete } from '../../../state/slices/checkout';
 import CustomButton from '../../CustomButton';
 import CustomText from '../../CustomText';

@@ -10,7 +10,7 @@ import {
   Previous,
 } from '../../../../assets';
 import DeliveryStatus from './component/DeliveryStatus';
-import { useAppSelector } from '../../../../state/hooks';
+import { useAppSelector } from '../../../../state/hooks/Index';
 import shrimp from '../../../../assets/images/shrimp.png';
 
 const HistoryDetails = ({ orderHistory }: OrderDetails) => {

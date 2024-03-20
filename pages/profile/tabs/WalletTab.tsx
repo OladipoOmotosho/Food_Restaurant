@@ -8,7 +8,7 @@ import {
 import { FONTFAMILY, colors } from '../../../utils';
 import styles from '../styles/profile.module.css';
 import TopUp from './tabComponent/component/TopUp';
-import { useAppDispatch, useAppSelector } from '../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../state/hooks/Index';
 import { setTopUp } from '../../../state/slices/walletTopUp';
 
 const WalletTab = () => {

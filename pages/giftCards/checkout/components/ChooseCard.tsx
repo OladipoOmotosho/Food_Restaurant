@@ -4,7 +4,7 @@ import StatusBar from '../../../../components/statusBar/StatusBar';
 import Coupons from '../../component/Coupons';
 import { DottedLine, IdleState, Line, OngoingState } from '../../../../assets';
 import { CustomButton } from '../../../../components';
-import { useAppDispatch, useAppSelector } from '../../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../state/hooks/Index';
 
 const ChooseCard = ({ onButtonClick }: any) => {
   const { windowSize, height } = useAppSelector((state) => state.screensize);

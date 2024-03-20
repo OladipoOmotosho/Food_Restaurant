@@ -12,7 +12,7 @@ import {
   UncheckedCircle,
 } from '../../../../assets';
 import { CustomButton, CustomTextInput } from '../../../../components';
-import { useAppDispatch, useAppSelector } from '../../../../state/hooks';
+import { useAppDispatch, useAppSelector } from '../../../../state/hooks/Index';
 import { DatePicker, LocalizationProvider } from '@mui/x-date-pickers';
 import { TextField, TextFieldProps } from '@mui/material';
 import { Dayjs } from 'dayjs';
@@ -246,9 +246,9 @@ const RecipientInfo = ({ onButtonClick }: any) => {
                 >
                   Print
                 </p>
-                We'll send you an email with the gift message and more details.
-                You can then print it if you prefer to hand deliver them or you
-                can forward it to them later.
+                We&apos;ll send you an email with the gift message and more
+                details. You can then print it if you prefer to hand deliver
+                them or you can forward it to them later.
               </span>
             </span>
           </div>

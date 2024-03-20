@@ -4,7 +4,10 @@ import { CustomTextInput } from '../../../../../components';
 import Payment from '../../../../../components/payment';
 import { FONTFAMILY, colors } from '../../../../../utils';
 import styles from './styles/components.module.css';
-import { useAppDispatch, useAppSelector } from '../../../../../state/hooks';
+import {
+  useAppDispatch,
+  useAppSelector,
+} from '../../../../../state/hooks/Index';
 import { setTopUpLoading } from '../../../../../state/slices/walletTopUp';
 import WalletPayment from '../../../../../components/walletTopupp';
 

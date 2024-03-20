@@ -16,17 +16,17 @@ import giftCards from '../assets/images/giftCards.png';
 import profileImgs from '../assets/images/profileImgs.png';
 import whatsApp from '../assets/images/whatsApp.png';
 import Link from 'next/link';
-import { useAppSelector } from '../state/hooks';
+import { useAppSelector } from '../state/hooks/Index';
 import { colors, FONTFAMILY } from '../utils';
 import { useRouter } from 'next/router';
 import CustomSearchBar from '../components/searchBar/CustomSearchBar';
 import Menu from '../utils/dummyData';
 import CarouselOriginalComponent from '../components/carouselComponent/CarouselOrignalComponent';
-import useScreenSize from '../hooks/useScreenSize';
+import UseScreenSize from '../hooks/UseScreenSize';
 import { Next, Previous } from '../assets';
 
 const Auth = () => {
-  useScreenSize();
+  UseScreenSize();
 
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);
 

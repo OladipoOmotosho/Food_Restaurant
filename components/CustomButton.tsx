@@ -1,6 +1,6 @@
 import { height } from '@mui/system';
 import { CustomText } from '.';
-import { useAppSelector } from '../state/hooks';
+import { useAppSelector } from '../state/hooks/Index';
 import { colors, FONTFAMILY } from '../utils';
 
 const CustomButton = ({

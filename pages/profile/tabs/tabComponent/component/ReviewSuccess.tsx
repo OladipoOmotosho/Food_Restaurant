@@ -3,7 +3,7 @@ import { PrevArrow, Rating, ThumbsUp } from '../../../../../assets';
 import { CustomButton } from '../../../../../components';
 import { FONTFAMILY, colors } from '../../../../../utils';
 import styles from '../../../styles/profile.module.css';
-import { useAppSelector } from '../../../../../state/hooks';
+import { useAppSelector } from '../../../../../state/hooks/Index';
 
 const ReviewSuccess = () => {
   const { windowSize, windowFit } = useAppSelector((state) => state.screensize);

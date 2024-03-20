@@ -6,7 +6,7 @@ import {
   setWindowHeight,
   setWindowSize,
 } from '../../../../state/slices/screensize';
-import { useAppSelector } from '../../../../state/hooks';
+import { useAppSelector } from '../../../../state/hooks/Index';
 
 const WelcomeBack = () => {
   const [email, setEmail] = useState('');

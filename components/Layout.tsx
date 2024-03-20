@@ -1,4 +1,4 @@
-import { useAppSelector } from '../state/hooks';
+import { useAppSelector } from '../state/hooks/Index';
 import Footer from './Footer';
 import NavBar from './Navbar';
 // import localFont from '@next/font/local';
@@ -10,7 +10,7 @@ export default function Layout({ children }: LayoutProps) {
 
   return (
     <div className={`${windowSize > 641 ? 'bg-[#F5F5F7]' : 'bg-white'}`}>
-      <NavBar/>
+      <NavBar />
       <main>{children}</main>
       <Footer />
     </div>

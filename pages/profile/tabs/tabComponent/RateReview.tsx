@@ -13,7 +13,7 @@ import {
 import Image from 'next/image';
 import styles from '../../styles/profile.module.css';
 import { Rating } from '@mui/material';
-import { useAppSelector } from '../../../../state/hooks';
+import { useAppSelector } from '../../../../state/hooks/Index';
 import ReviewSuccess from './component/ReviewSuccess';
 
 const RateReview = ({

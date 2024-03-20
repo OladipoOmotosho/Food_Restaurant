@@ -12,7 +12,7 @@ import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { Modal } from '@mui/material';
 import Cart from './components/cart';
-import { useAppSelector } from '../../state/hooks';
+import { useAppSelector } from '../../state/hooks/Index';
 import MenuIcon from './assets/svg/menuIcon.svg';
 import CustomText from '../CustomText';
 import MobileMenu from './components/mobileMenu';
